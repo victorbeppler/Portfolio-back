@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "d7b4da49-3f07-417d-b130-c56b59c27d1e",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3333/sendmail",
+    "url": "http://localhost:3333/sendmail",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-01T04:29:24.856Z",
+    "modified": "2023-03-01T04:29:24.856Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"aaa@aaa\",\n  \"name\": \"aa\",\n  \"subject\": \"aaaa\",\n  \"message\": \"aaaa\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
