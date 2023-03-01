@@ -2,12 +2,12 @@ version: '2.2'
 
 services:
   api:
-    image: back-portifolio
+    image: back-portfolio
     build: .
     ports:
       - "3333:3333"
     restart: on-failure
-    container_name: back-portifolio
+    container_name: back-portfolio
     command: npm run start
     volumes:
       - .:/app
